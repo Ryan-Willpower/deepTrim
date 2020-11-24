@@ -1,4 +1,5 @@
 function trimStringProperties(obj) {
+  // clone the object
   const cloneObj = JSON.parse(JSON.stringify(obj));
 
   for (let key in cloneObj) {
